@@ -1,10 +1,9 @@
 terraform {
   #backend "s3"{
-    #bucket="koteswararao-batch4-statefile"
-    #key="koteswararao.tfstate"
-    #region="eu-west-3"
-    #use_lockfile=true
-    #
+    bucket="koteswararao-batch4-statefile"
+    key="koteswararao.tfstate"
+    region="eu-west-3"
+    use_lockfile=true
 
   }
   required_providers {
@@ -14,3 +13,4 @@ terraform {
     }
   }
 }
+
