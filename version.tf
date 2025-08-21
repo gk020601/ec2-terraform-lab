@@ -1,5 +1,5 @@
 terraform {
-  #backend "s3"{
+  backend "s3"{
     bucket="koteswararao-batch4-statefile"
     key="koteswararao.tfstate"
     region="eu-west-3"
@@ -13,4 +13,5 @@ terraform {
     }
   }
 }
+
 
